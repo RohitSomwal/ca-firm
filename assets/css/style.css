@@ -1,0 +1,406 @@
+@import url('https://fonts.googleapis.com/css2?family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;font-family: "Urbanist", sans-serif;
+}
+
+/*Utility Class Starts*/
+.flex{
+    display: flex;
+}
+i{
+    margin-right: 10px;
+}
+/*Utility Class Ends*/
+
+
+/*Header Styling Section*/
+.header{
+    width: 100%;
+    height: 104px;
+    top: -7px;
+    gap: 0px;
+    border: 1px 0px 0px 0px;
+    opacity: 0px;   
+    z-index: -1;
+}
+
+.header .head-top{
+    justify-content: space-between;
+    margin: auto;
+    align-items: center;
+    padding-left: 30px;
+    padding-right: 30px;
+    width: 900px;
+    height: 28px;
+    top: -7px;
+    left: 172px;
+    
+    opacity: 0px;
+    background-color: black;
+}
+
+.header .head-top span{
+}
+
+.header .head-top .head-top-left{
+    font-size: 12.5px;
+    gap: 17px;
+}
+
+.header .head-top .head-top-left p{
+    
+    color: white;
+}
+
+.header .head-top .head-top-right p{
+    font-size: 12.5px;
+    color: white;
+}
+
+.header .head-bottom{
+    margin-top: 10px;
+    justify-content: space-around;
+    height: 60px;
+    align-items: center;
+    
+}
+
+.header .head-bottom .logo-img{
+    align-items: center;
+}
+
+.header .head-bottom .ca-firm{
+    font-size: 22px;
+    font-weight: 750;
+    margin-left: 10px;
+}
+.header .head-bottom img{
+    height: 5vh;
+}
+
+.header .head-bottom ul{
+    gap: 40px;
+}
+
+.header .head-bottom ul li{
+    list-style: none;
+}
+
+.header .head-bottom ul a{
+    color: black;
+    text-decoration: none;
+}
+
+.head-bottom .searchbar{
+    padding-left: 10px;
+    display: flex;
+    border: 2px solid whitesmoke;
+    align-items: center;
+    border-radius: 8px;
+    width: 15vw;
+    height: 5vh;
+} 
+
+.head-bottom .searchbar input{
+    border: none;
+}
+
+.head-bottom .searchbar i{
+    font-size: 13px;
+
+}
+
+/*Section1 Styling Section*/
+
+.section1{
+    height: 60vh;
+    width: 100%;
+    background-image: url(/assets/image/first-section-bg.jpeg);
+    background-size: cover;
+    padding: 35px;
+    padding-left: 93px;
+}
+
+.section1 .section1-left{
+    width: 33%;
+    height: 50vh;
+}
+
+.section1 .section1-left h1{
+    font-size: 35px;
+    color: white;
+}
+
+.section1 .section1-left p{
+    width: 80%;
+    font-size: 15px;
+    color: white;
+    margin: 20px 0px;
+    background-color: hotpink;
+    background-color: rgba(245, 245, 245, 0.151);
+    padding: 5px 10px;
+    padding-right: 40px;
+    line-height: 20px;
+    z-index: -1;
+    border-left: 4.4px solid #008080;
+}
+
+.section1 .section1-left .btn1{
+    height: 6vh;
+    background-color: #008080;
+    color: white;
+    padding: 8px 15px;
+    border: none;
+    border-radius: 7px;
+}
+
+.section1 .section1-left .btn2{
+    height: 6vh;
+    color: white;
+    border: 2px solid white;
+    background: none;
+    padding: 8px 15px;
+    border-radius: 7px;
+    margin-left: 15px;
+}
+
+.section1 .section1-right{
+    position: relative;
+}
+
+.section1 .section1-right img{
+    top: -99px;
+    left: 60px;
+    position: absolute;
+    height: 70vh;
+}
+
+/*Section2 Styling Section */
+
+.section2{
+    width: 100%;
+    padding-top: 40px;
+    background-image: url(/assets/image/Group\ 6.png);
+    background-size: 320px;
+    background-repeat: repeat;
+    
+    
+}
+.section2 .our-services{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 17vh;
+    width: 100%;
+}
+
+.section2 .our-services h2{
+    border-bottom: 4px solid #008080;
+    width: fit-content;
+}
+
+.section2 .card{
+    width: 15.7vw;
+    height: 40vh;
+    border: 1px solid black;
+
+}
+
+.section2 .five-cards{
+    justify-content: center;
+    gap: 20px;
+}
+
+.section2 .card .card-img{
+    display: flex;
+    align-items: center;
+    height: 55px;
+    width: 55px;
+    padding-left: 8px;
+    background-color: black;
+    border-radius: 50%;
+    margin: 10px;
+}
+
+.section2 .card img{
+    height: 30px;
+    width: 35px;
+    color: white;
+}
+
+.section2 .card .h3-card{
+    padding-left: 8px;
+    font-size: 15.2px;
+}
+
+.section2 .card .para-card{
+    padding: 0px 8px;
+    font-size: 9.8px;
+    margin-top: 9px;
+}
+
+.section2 .card .card-btn{
+    display: flex;
+    align-items: center;
+    color: white;
+    background-color: black;
+    border-radius: 4px;
+    border: none;
+    width: 6vw;
+    height: 3.5vh;
+    font-size: 9px;
+    padding: 5px;
+    margin-left: 8px;
+    margin-top: 9px;
+    font-weight: 750;
+   
+}
+
+/*Section3 Styling Section*/
+
+.section3{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: auto;
+    width: 88%;
+}
+
+.about-us h2{
+    border-bottom: 4px solid #008080;
+    margin: 38px 0px;
+    justify-content: center;
+}
+
+.para-section3 p{
+    font: urbanist;
+    font-size: 15px;
+    border: 1px solid black;
+    padding: 30px;
+    word-spacing: 3px;
+    border-radius: 6px;
+    background-image: url(/assets/image/Group\ 6.png);
+    background-size: cover;
+    background-size: 290px;
+    background-repeat: repeat;
+}
+/*Section4 Styling Section*/
+.section4{
+    margin-left: 6%;
+    position: relative;
+    width: 88%;
+    margin-top: 30px;
+}
+
+.section4 img{
+    height: 70vh;
+    width: 42vw;
+}
+
+.section4 .mission{
+    right: 0px;
+    top: 55px;
+    position: absolute;
+    width: 50vw;
+    background-color: white;
+    box-shadow: 6px 8px 15px rgba(0, 0, 0, 0.4);
+    border-radius: 8px;
+}
+.mission h3{
+    padding: 12px;
+    color: #008080;
+}
+.section4-para{
+    padding: 8px 25px;
+    font-size: 12px
+    ;
+}
+
+.section4-h5{
+    padding: 10px 25px;
+    font-size: 13px;
+}
+
+/*Section5 Styling Section*/
+
+.section5{
+    width: 94%;
+}
+
+.our-consultant h2{
+    display: flex;
+    padding: 30px;
+    justify-content: center;
+    color: #008080;
+}
+
+.dhruv{
+    display: flex;
+    margin-bottom: 15px;
+    margin-left: 6%;
+    border-radius: 12px;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+.dhruv-left{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: black;
+    width: 15%;
+}
+
+.dhruv-left img{
+    padding: 12px 0px 15px 0px;
+    width: 9.3vw;
+}
+
+.dhruv-left p{
+    color: white;
+    border-bottom: 3px solid #008080;
+    margin-bottom: 16px
+}
+
+.dhruv-right p{
+    font-size: 13.5px;
+    padding: 6px 12px;
+}
+
+.dhruv-right{
+    width: 90%;
+    padding: 8px;    
+}
+
+/*Section6 Styling Section*/
+
+.section6{
+    width: 100%;
+    background-color: black;
+    height: 320px;
+}
+
+.section6 h1{
+    color: white;
+    font-size: 35px;
+    font-weight: 550;
+    border-bottom: 4px solid #008080;
+    width: 270px;
+}
+
+.section6 p{
+    color: #008080;
+    font-size: 13px;
+    font-weight: 300;    
+}
+
+.sec6-div .i-background{
+    height: 20px;
+    width: 20px;
+    background-color: white;
+}
+.sec6-div i{
+    color: #008080;
+}
