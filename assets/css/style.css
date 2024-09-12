@@ -12,6 +12,29 @@
 i{
     margin-right: 10px;
 }
+h2{
+    position: relative;
+}
+h2::before{
+    content: '';
+    width: 5px;
+    height: 5px;
+    border-radius: 5px;
+    background-color: #008080;
+    position: absolute;
+    bottom: -12px;
+    left: 3px;
+}
+h2::after{
+    content: '';
+    width: 80px;
+    height: 5px;
+    border-radius: 5px;
+    background-color: #008080;
+    position: absolute;
+    bottom: -12px;
+    left: 12px;
+}
 /*Utility Class Ends*/
 
 
@@ -171,7 +194,7 @@ i{
 }
 
 .section1 .section1-right img{
-    top: -99px;
+    top: -93px;
     left: 60px;
     position: absolute;
     height: 70vh;
@@ -197,8 +220,7 @@ i{
 }
 
 .section2 .our-services h2{
-    border-bottom: 4px solid #008080;
-    width: fit-content;
+    border: black;
 }
 
 .section2 .card{
@@ -269,7 +291,6 @@ i{
 }
 
 .about-us h2{
-    border-bottom: 4px solid #008080;
     margin: 38px 0px;
     justify-content: center;
 }
@@ -301,26 +322,28 @@ i{
 
 .section4 .mission{
     right: 0px;
-    top: 55px;
+    top: 40px;
     position: absolute;
     width: 50vw;
     background-color: white;
     box-shadow: 6px 8px 15px rgba(0, 0, 0, 0.4);
     border-radius: 8px;
 }
-.mission h3{
-    padding: 12px;
+.mission h2{
     color: #008080;
+    padding: 13px 0px 0px 0px;
+    margin: 0px 0px 0px 22px;
 }
 .section4-para{
-    padding: 8px 25px;
-    font-size: 12px
-    ;
+    padding: 0px 25px;
+    font-size: 12px;
+    margin: 15px 0px 20px 0px;
 }
 
 .section4-h5{
-    padding: 10px 25px;
+    padding: 0px 25px;
     font-size: 13px;
+    margin: 22px 0px 0px 0px;
 }
 
 /*Section5 Styling Section*/
@@ -331,9 +354,12 @@ i{
 
 .our-consultant h2{
     display: flex;
-    padding: 30px;
+    margin: 40px 0px 40px 0px;
     justify-content: center;
-    color: #008080;
+    color: black;
+    width: 13%;
+    margin: auto;
+    padding: 40px 0px 1px 0px;
 }
 
 .dhruv{
@@ -343,6 +369,7 @@ i{
     border-radius: 12px;
     border: 1px solid black;
     border-radius: 5px;
+    margin-top: 40px;
 }
 
 .dhruv-left{
@@ -379,19 +406,344 @@ i{
 .section6{
     width: 100%;
     background-color: black;
-    height: 320px;
+    margin-top: 170px;
+    margin-bottom: 50px;
+    position: relative;
+    padding: 30px 0px;
 }
 
-.section6 h1{
+.section6 h2{
+    display: flex;
+    align-items: center;
     color: white;
-    font-size: 35px;
+    font-size: 38px;
     font-weight: 550;
-    border-bottom: 4px solid #008080;
-    width: 270px;
+    width: 380px;
+    margin: 20px 0px 31px 64px;
 }
 
 .section6 p{
-    color: #008080;
+    padding: 8px 10px 8px 65px;
+    color: white;
     font-size: 13px;
     font-weight: 300;    
+    width: 52vw;
+}
+
+.section6 ul{
+    color: white;
+    list-style: none;
+}
+
+.section6 li{
+    padding: 8px 10px 8px 65px;
+    font-size: 13px;
+    align-items: center;
+    display: flex;
+    margin: 12px 0px;
+    width: 53vw;
+}
+.section6 ul li img{
+    background-color: white;
+    height: 28px;
+    width: 30px;
+    padding: 5px;
+    border-radius: 50%;
+    margin-right: 18px;
+}
+
+.section6 .chairperson img{
+    position: absolute;
+    height: 75vh;
+    width: 29vw;
+    right: 85px;
+    top: -62px;
+}
+
+.section6 .from-our-client img{
+    position: absolute;
+    height: 12vh;
+    width: 15vw;
+    right: 362px;
+    top: 28px;
+}
+
+/* Section7 Styling Section*/
+
+.section7{
+    width: 88%;
+    margin: auto;
+}
+
+.section7 .contact-us h2{
+    color: black;
+    display: flex;
+    justify-content: center;
+    width: 125px;
+    margin: 5px 80px;
+    margin: auto;
+}
+
+.section7-left{
+    padding: 50px 45px;
+    width: 40%;
+    background-color: black;
+    margin-top: 50px;
+}
+
+.section7-left h4{
+    font-size: 22px;
+    color: #008080;
+}
+
+.section7 .section7-left h2{
+    color: white;
+    padding: 10px 0px;
+    font-size: 30px;
+    width: 280px;
+}
+
+.section7-left p{
+    display: flex;
+    align-items: center;
+    color: white;
+    font-size: 14px;
+    padding: 10px 0px;
+}
+
+.section7-left p img{
+    height: 15px;
+    width: 15px;
+    margin-right: 8px;
+}
+
+.section7-right{
+    padding: 30px 40px;
+    box-shadow: 6px 8px 15px rgba(0, 0, 0, 0.4);
+    width: 60%;
+    margin-top: 50px;
+
+}
+.section7-right .name{
+    display: flex;
+    align-items: center;
+    position: relative;
+    height: 40px;
+    width: 250px;
+    border: 1px solid black;
+    padding-left: 10px;
+    margin: 9px 9px;
+    border-radius: 3px;
+}
+.section7-right label{
+    position: absolute;
+    top: -10px;
+    left: 8px;
+    padding: 0px 7px;
+    background-color: white;
+    font-size: 13px;
+}
+.section7-right .name-mail input{
+    padding-left: 9px;
+    font-size: 10px;
+    border: none;
+}
+
+.section7-right .name-mail select{
+    height: 40px;
+    width: 250px;
+    padding-left: 10px;
+    font-size: 10.8px;
+    margin: 0px -11px;
+    border-radius: 3px;
+}
+.section7-right .radio-buttons{
+    height: 40px;
+    width: 250px;
+    /* padding-left: 10px; */
+    font-size: 10.8px;
+    margin: 3px 9px;
+    border-radius: 3px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.section7-right .textarea1{
+    position: relative;
+    width: 518px; 
+    margin: 8px 9px;
+    padding: 15px 16px;
+    border-radius: 3px;
+    border: 1px solid black;
+    
+}
+.section7-right textarea{
+    width: 490px;
+    
+    font-size: 10.8px;
+    border: none;
+}
+
+.section7-right .textarea1 label{
+    position: absolute;
+}
+.section7-right .name-mail input{
+    
+}
+
+.section7-right .name-mail button{
+    height: 40px;
+    width: 250px;
+    color: white;
+    background-color: #008080;
+    border-radius: 3px;
+    margin: 7px 9px;
+}
+.section7-right .name-mail button img{
+    height: 15px;
+    width: 15px;
+}
+/*Section 8 Styling Section*/
+
+.section8{
+    width: 88%;
+    margin: auto;
+}
+.section8 h3{
+    display: flex;
+    justify-content: center;
+    color: #008080;
+    margin-top: 70px;
+    margin:30px 0px;
+ }
+
+ .section8 h2{
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+    margin: auto;
+    width: 289px;
+
+ }
+.section8 .card{
+    width: 270px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    margin-top: 90px
+}
+ .section8 .card-top{
+    position: relative;
+    padding: 20px;
+    background-color: black;
+ }
+ .section8 .card-bottom{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 22px 0px;
+    background-color: whitesmoke;
+ }
+ .section8 .card .card-bottom p{
+    font-size: 14px;
+      
+ }
+.section8 .card-top img{
+    position: absolute;
+    height: 90px;
+    width: 90px;
+    top: -45px;
+    left: 70px;
+}
+.section8 .card-top p{
+    color: white;
+    font-size: 12px;
+    padding-top: 32px;
+}
+
+.section8 .three-cards{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+/*Footer Styling Section*/
+
+footer{
+    width: 100%;
+    background-color: #f6f9ff;
+    padding: 25px 55px;
+    margin-top: 60px;
+}
+footer h5{
+    margin: 20px 0px 0px 0px;
+}
+footer .logo{
+    align-items: center;
+}
+footer .logo img{
+    height: 5vh;
+}
+footer .part1{
+    width: 85%;
+}
+footer .part1 .logo p{
+    font-size: 22px;
+    font-weight: 750;
+    padding: 12px 0px;
+}
+footer .part1 p{
+    font-size: 13px;
+}
+footer .part2{
+    display: flex;
+    justify-content: space-between;
+    width: 80vw;
+}
+footer .part2-left ul{
+    padding: 10px 0px;
+    list-style: none;
+}
+footer .part2-left ul li{
+    padding-bottom: 10px;
+}
+footer .part2-left ul li a{
+    color: grey;
+    font-size: 12.5px;
+    text-decoration: none;
+}
+footer .part2-right ul{
+    list-style: none;
+    padding: 10px 0px;
+}
+footer .part2-right ul li{
+    padding-bottom: 18px;
+    list-style: none;
+}
+footer .part2-right ul li a{
+    color: #4B5768;
+    font-size: 12.5px;
+    text-decoration: none;
+}
+footer .part3 p{
+    margin: 0px 0px 18px 0px;
+    font-size: 13px;
+    color: #4B5768;
+}
+footer .part4{
+    display: flex;
+    justify-content: space-between;
+    width: 95%;
+    border-top: 1px solid gray;
+}
+footer .part4-left{
+    margin: 22px 0px 0px 0px;
+    font-size: 13px;
+    color: #4B5768;
+}
+footer .part4-right i{
+    margin: 22px 0px 0px 0px;
+    padding: 0px 0px 0px 12px;
 }
